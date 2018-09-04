@@ -19,13 +19,13 @@ void tempo(int laco){//so para gastar um pouquinho de tempo tempo
         for (b = 0; b < laco; b++)
             for (c = 0; c < laco; c++)
                 laco = laco;
-  
+    
 }
 
 
 void *funcao(void *thread_id){
     int *ident;
-
+    
     ident = thread_id;
     
     printf("• Thread %i\n", *ident);//alerta inicio
